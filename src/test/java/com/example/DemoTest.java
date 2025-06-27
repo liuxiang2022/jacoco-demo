@@ -17,4 +17,10 @@ public class DemoTest {
         Demo calc = new Demo();
         assertEquals(8, calc.subtract(10, 2));
     }
+
+    @Test
+    void testMultiply() {
+        Demo calc = new Demo();
+        assertEquals(20, calc.multiply(10, 2));
+    }
 }
