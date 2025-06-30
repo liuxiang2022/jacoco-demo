@@ -24,7 +24,7 @@ jobs:
           distribution: 'corretto'
 
       - name: Run tests and verify coverage
-        run: mvn clean verify
+        run: mvnw clean verify
 
 
 
